@@ -6,6 +6,7 @@
    --white-theme-liquid: rgba(255, 255, 255, 0.6);
    --hiperlink-and-active-theme: #2196F3;
    --filter-button-color: #F5F4FA;
+   
 
    
    
@@ -160,16 +161,6 @@ letter-spacing: 0.03em;
 color: var(--main-text-theme-paragraph);
 }
 
-
-
-
-
-
-
-
-
-
-
 .footer-section {
    background-color: var(--dark-background);
 }
@@ -190,3 +181,49 @@ color: var(--main-text-theme-paragraph);
    font-style: normal;
    color: var(--white-theme);
 }
+
+
+
+
+.filter-btn {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: currentColor;
+
+   background-color: var(--filter-button-color);
+   border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn.active {
+   color: var(--white-theme);
+   background-color: var(--hiperlink-and-active-theme);
+}
+
+.btn {
+   cursor: pointer;
+}
+
+.portfolio-project-card {
+   text-decoration: none;
+   color: currentColor;
+}
+
+.portfolio-project-subtitle {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.portfolio-project-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--main-text-theme-paragraph);
+}
+
